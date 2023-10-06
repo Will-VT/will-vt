@@ -26,6 +26,16 @@ input {
     text-transform: none; 
 }
 
+.main-contain {
+  height: calc(100vh - 15.4vw);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 84vw;
+
+}
+
 .hero {
   position: relative;
   background-image: url('Vector.png'); /* Replace with the actual path to your image */
